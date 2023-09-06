@@ -6,7 +6,6 @@ from matplotlib import gridspec
 import matplotlib.pylab as plt
 import numpy as np
 import tensorflow as tf
-import tensorflow_hub as hub
 from PIL import Image
 
 # function to crop image from center
