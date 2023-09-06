@@ -86,7 +86,7 @@ def save_img(img,image_size = (1084,1084),preserve_aspect_ratio = True):
   print('Image shape',img.shape)
   # saving image
   image = Image.fromarray(np.uint8(img))
-  image.save('diffused.png')
+  image.save('diffused_img.png')
   
 
 # function: to predict stylized image
