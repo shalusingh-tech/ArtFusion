@@ -2,7 +2,7 @@
 # setup librarys
 import functools
 import os
-from matplotlib import gridspec
+#from matplotlib import gridspec
 import matplotlib.pylab as plt
 import numpy as np
 import tensorflow as tf
@@ -22,18 +22,18 @@ def crop_center(image):
 
 
 # function: show  images
-def show_images(images,titles =('',)):
-  n = len(images)
-  images_shape = [image.shape[1] for image in images]
-  w = (images_shape[0] * 6)//320
-  plt.figure(figsize=(w*n,w))
-  gs = gridspec.GridSpec(1,n,width_ratios = images_shape)
-  for i in range(n):
-    plt.subplot(gs[i])
-    plt.imshow(images[i][0],aspect = 'equal')
-    plt.axis('off')
-    plt.title(titles[i] if len(titles) > i else '' )
-  plt.show()
+# def show_images(images,titles =('',)):
+#   n = len(images)
+#   images_shape = [image.shape[1] for image in images]
+#   w = (images_shape[0] * 6)//320
+#   plt.figure(figsize=(w*n,w))
+#   gs = gridspec.GridSpec(1,n,width_ratios = images_shape)
+#   for i in range(n):
+#     plt.subplot(gs[i])
+#     plt.imshow(images[i][0],aspect = 'equal')
+#     plt.axis('off')
+#     plt.title(titles[i] if len(titles) > i else '' )
+#   plt.show()
 
 # function: image info
 def img_info(img):
