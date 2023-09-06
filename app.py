@@ -35,7 +35,7 @@ def main():
     image2 = st.file_uploader("Upload Style Image", type=["jpg", "png", "jpeg"])
     print('style img type:',type(style_img_shape))
 
-    stylized_img_shape = st.selectbox("Select desired Style image shape for diffused Image:", output_shapes,key = 2)
+    stylized_img_shape = st.selectbox("Select desired Diffused image shape:", output_shapes,key = 2)
     stylized_img_shape = get_img_shape(output_shapes,stylized_img_shape)
   
     
@@ -69,7 +69,7 @@ def main():
                 #print('Saving diffused img...')
                 fsm.save_img(stylized_img,image_size=stylized_img_shape)
                 #print('Diffused img saved successfully')
-                processed_image_path = 'stylized.png'
+                processed_image_path = 'diffused_img.png'
                 #==============================================================================
                 #diffused_image = your_ml_module.process_images(image1, image2)
 
