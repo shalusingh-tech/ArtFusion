@@ -53,7 +53,7 @@ def load_local_img(img_path,img_size = (720,720),perserve_aspect_ratio = True):
   img = np.asarray(img)  # convert to numpy array
   img = np.expand_dims(img,axis = 0) # new img_shape: [batch,height,width,channel]
   # crop the image to center
-  img = crop_center(img)
+  #img = crop_center(img)
   # resize the image to desired size
   img = tf.image.resize(img,img_size,preserve_aspect_ratio = True)
   img = img.numpy() # convert to tensor to numpy
