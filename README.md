@@ -48,17 +48,25 @@ Access the Image Stylization Web App through the provided web link: [Your Web Li
 
 ## Example
 
-Include visuals or screenshots showcasing the application's interface and example stylized images.
+![image](https://github.com/shalusingh-tech/Image_Diffusion_App/assets/68162265/98514fb2-b4ba-4b66-8551-a433f37f1f5a)
 
-## Contributing
+**ORIGINAL_IMAGE**
 
-If you welcome contributions, provide guidelines for contributing to the project.
+![image](https://github.com/shalusingh-tech/Image_Diffusion_App/assets/68162265/7a6638fc-d8b8-46fd-b8de-bc44b7ce975d)
 
-## License
+**STYLE_IMAGE**
 
-Include information about the license under which your application is distributed.
+![image](https://github.com/shalusingh-tech/Image_Diffusion_App/assets/68162265/a78c4020-9409-4fac-9f93-08fe2e4c24f3)
+
+**DIFFUSED_IMAGE**
+
+![image](https://github.com/shalusingh-tech/Image_Diffusion_App/assets/68162265/fa8ce2b4-fe38-4bda-b589-4e7d11c1d230)
+
+
+## App Link
+https://imagediffusionapp-lskxsappgtyc4uzmaj24dqp.streamlit.app/
 
 ## Contact
 
-For questions, feedback, or support, contact us at [Your Contact Email Here].
+For questions, feedback, or support, contact us at [singhtech.10@gmail.com].
 
