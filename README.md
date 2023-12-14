@@ -34,7 +34,7 @@ This web application seamlessly combines the properties of a main image and a st
 
 ## Usage
 
-Access the Image Stylization Web App through the provided web link: [https://imagediffusionapp-lskxsappgtyc4uzmaj24dqp.streamlit.app/](#)
+Access the Image Stylization Web App through the provided web link: [https://imagediffusionapp-lskxsappgtyc4uzmaj24dqp.streamlit.app/]
 
 1. **Upload Images:**
    - Upload a main image and a stylized image to get started.
