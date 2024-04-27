@@ -1,4 +1,4 @@
-# Image Stylization Web App
+# ArtFusion🖼: Expressive Image Styling
 
 ## Overview
 
